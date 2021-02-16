@@ -1,0 +1,46 @@
+.form-wraper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-box{
+    max-width: 600px;
+    width: 100%;
+}
+
+.text-area-wraper{
+    resize: none;
+    height: 100px;
+}
+
+.text-area-wraper:focus{ 
+    outline: none;
+}
+
+/* input { 
+    height: 40px;
+    width: 300px;
+} */
+
+/* input[type=text]{
+    background-color: blue;
+}
+
+input[type=password]{
+    background-color:yellow;
+} */
+
+input{
+    border: none;
+    border-bottom: solid red;
+
+}
+textarea { 
+    width: 300px;
+}
+
+.input-wraper:focus{
+    outline: none;
+}
+
